@@ -1,0 +1,118 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../../../assets/img/astro-astronomy-background-956999.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.vl-1 {
+  border-left: 6px solid #049dff;
+  height: 430px;
+  position: absolute;
+  left: 23.6%;
+  margin-left: -3px;
+  bottom: -75px;
+  animation: line-v1 3s linear forwards;
+  height:0%;
+  animation-delay: 2s;
+}
+
+@keyframes line-v1 {
+  from {
+    bottom:355px;
+    height:0%;
+  }
+  to {
+    bottom:-274px;
+    height:629px;
+  }
+}
+
+.vl-2 {
+  border-left: 6px solid #fdba04;
+  height: 370px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  bottom: -75px;
+  animation: line-v2 2.7s linear forwards;
+  height:0%;
+}
+
+@keyframes line-v2 {
+  from {
+    bottom:298px;
+    height:0%;
+  }
+  to {
+    bottom:-75px;
+    height:372px;
+  }
+}
+
+.vl-3 {
+  border-left: 6px solid #ed687c;
+  height: 430px;
+  position: absolute;
+  left: 76.4%;
+  margin-left: -3px;
+  bottom: -75px;
+  animation: line-v3 3s linear forwards;
+  height:0%;
+  animation-delay: 2s;
+}
+
+@keyframes line-v3 {
+  from {
+    bottom:355px;
+    height:0%;
+  }
+  to {
+    bottom:-274px;
+    height:629px;
+  }
+}
+
+.hl-1{
+  border-top: 6px solid #049dff;
+  width: 226px;
+  position: absolute;
+  left: 23.7%;
+  bottom: 349px;
+  animation: line 2s linear forwards;
+  width:0%;
+}
+
+@keyframes line {
+  from {
+    left:40%;
+    width:0%;
+  }
+  to {
+    left:23.7%;
+    width:235px;
+  }
+}
+
+.hl-2{
+  border-top: 6px solid #ed687c;
+  width: 226px;
+  position: absolute;
+  left: 60%;
+  bottom: 349px;
+  animation: line-1 2s linear forwards;
+  width:0%;
+}
+
+@keyframes line-1 {
+  from {
+    left:60%;
+    width:0%;
+  }
+  to {
+    left:60%;
+    width:238px;
+  }
+}
