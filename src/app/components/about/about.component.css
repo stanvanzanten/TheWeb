@@ -1,9 +1,28 @@
 .masthead {
-    height: 100vh;
-    min-height: 500px;
     background-color: black;
     /* background-image: url('../../../assets/img/SpiderWeb.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
+  }
+
+  .profielfoto{
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .WhoAmI{
+    color: white;
+    font-size: 50px;
+  }
+
+  /* .main-row{
+    padding-top: 50px;
+  } */
+
+  .container{
+    padding-top: 50px;
+  }
+  .beschrijving{
+    color: white;
   }

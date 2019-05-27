@@ -119,6 +119,10 @@
   background-repeat: no-repeat; */
 }
 
+.main-row{
+  padding-top: 50px;
+}
+
 /* .frontpageline{
   border-top: 2px solid white;
 }
