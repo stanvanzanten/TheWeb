@@ -1,13 +1,5 @@
-.masthead {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url('../../../assets/img/astro-astronomy-background-956999.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+/* .vl-1 {
 
-.vl-1 {
   border-left: 6px solid #049dff;
   height: 430px;
   position: absolute;
@@ -43,12 +35,12 @@
 
 @keyframes line-v2 {
   from {
-    bottom:298px;
+    bottom:295px;
     height:0%;
   }
   to {
     bottom:-75px;
-    height:372px;
+    height:370px;
   }
 }
 
@@ -115,4 +107,128 @@
     left:60%;
     width:238px;
   }
+} */
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-color: black;
+  /* background-image: url('../../../assets/img/SpiderWeb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+/* .frontpageline{
+  border-top: 2px solid white;
+}
+
+.frontpagetext{
+  color: white;
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+}
+
+.carousel-control-next{
+  padding-top: 95px;
+}
+
+.link-next{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+.link-next:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.secondline{
+  border-top: 2px solid white
+}
+
+.factstext{
+  font-size: 40px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+} */
+
+.openingtext {
+  margin-top: 25px;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 5.5s;
+  -moz-animation-duration: 5.5s;
+  animation-duration: 5.5s;
+}
+
+.subtext {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+
+.headerclass{
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.frontpageline {
+  border-top: 2px solid #FF8300;
+  width: 20%;
 }

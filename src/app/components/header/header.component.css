@@ -1,3 +1,20 @@
-.navbar{
-    color: gray;
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.fas.fa-bars {
+    color: #FF8300;
+    border-color: transparent !important;
+}
+
+.atSign {
+    color: #FF8300 !important;
+}
+
+.navbar-brand{
+    font-size: 32px;
+}
+
+.RouterLink{
+    color: white;
 }

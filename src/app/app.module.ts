@@ -5,13 +5,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FactsComponent } from './components/facts/facts.component';
+import { AboutComponent } from './components/about/about.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 
 const appRoutes : Routes =[
   {path:'', component: HomeComponent},
   {path:'home', component: HomeComponent},
-  {path:'facts', component: FactsComponent}
+  {path:'about', component: AboutComponent},
+  {path:'portfolio', component: PortfolioComponent},
+  {path:'pricing', component: PricingComponent}
 ];
 
 @NgModule({
@@ -19,7 +23,9 @@ const appRoutes : Routes =[
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FactsComponent
+    AboutComponent,
+    PortfolioComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,
