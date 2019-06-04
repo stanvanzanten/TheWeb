@@ -8,14 +8,14 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PricingComponent } from './components/pricing/pricing.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes : Routes =[
   {path:'', component: HomeComponent},
   {path:'home', component: HomeComponent},
-  {path:'about', component: AboutComponent, data: { animation: 'isRight' }},
-  {path:'portfolio', component: PortfolioComponent, data: { animation: 'isLeft' }},
-  {path:'pricing', component: PricingComponent}
+  {path:'about', component: AboutComponent, data: { animation: 'isRight'}},
+  {path:'portfolio', component: PortfolioComponent},
+  {path:'pricing', component: PricingComponent, data: {animation: 'isRight'}}
 ];
 
 @NgModule({
@@ -29,6 +29,7 @@ const appRoutes : Routes =[
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
