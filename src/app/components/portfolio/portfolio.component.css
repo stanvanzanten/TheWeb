@@ -1,0 +1,19 @@
+.masthead {
+  background-color: #333333 !important;
+  /* background-image: url('../../../assets/img/SpiderWeb.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.container {
+  padding-top: 60px;
+}
+
+.MyWorks {
+  color: white;
+}
+
+.row-items {
+  padding-top: 50px;
+}
