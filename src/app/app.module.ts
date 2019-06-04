@@ -13,7 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 const appRoutes : Routes =[
   {path:'', component: HomeComponent},
   {path:'home', component: HomeComponent},
-  {path:'about', component: AboutComponent, data: { animation: 'isRight'}},
+  {path:'about', component: AboutComponent, data: { animation: ''}},
   {path:'portfolio', component: PortfolioComponent, data: {animation: 'isLeft'}},
   {path:'pricing', component: PricingComponent, data: {animation: 'isRight'}}
 ];
