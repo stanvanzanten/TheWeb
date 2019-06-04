@@ -20,6 +20,12 @@
     font-size: 18px;
 }
 
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus{
+	color: #FF8300
+}
+
 .navbar-nav{
     text-align: right;
 }
@@ -60,8 +66,8 @@
 	height: 100%;
 	outline: none;
 	border-radius: 50%;
-	background-color: #fff;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: #FF8300;
+	background-color: white;
 	text-indent: -999em; /* make the text accessible to screen readers */
     cursor: pointer;
     text-align: center
@@ -77,12 +83,13 @@
 }
 
 .dotstyle-scaleup li a:hover,
+.dotstyle-scaleup li a:active,
 .dotstyle-scaleup li a:focus {
-	background-color: white;
+	background-color: #FF8300;
 }
 
 .dotstyle-scaleup li.current a {
-	background-color: white;
+	background-color: #FF8300;
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
 }
