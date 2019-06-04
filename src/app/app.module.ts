@@ -13,8 +13,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
 const appRoutes : Routes =[
   {path:'', component: HomeComponent},
   {path:'home', component: HomeComponent},
-  {path:'about', component: AboutComponent},
-  {path:'portfolio', component: PortfolioComponent},
+  {path:'about', component: AboutComponent, data: { animation: 'isRight' }},
+  {path:'portfolio', component: PortfolioComponent, data: { animation: 'isLeft' }},
   {path:'pricing', component: PricingComponent}
 ];
 
