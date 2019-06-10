@@ -54,7 +54,7 @@ export const transformer =
 
 
 // @dynamic
-export function slideTo(direction) {
+function slideTo(direction) {
   const optional = { optional: true };
   return [
     query(':enter, :leave', [
