@@ -32,6 +32,7 @@ export const fader =
 
 
 // Positioned
+// @dynamic
 
 export const slider =
   trigger('routeAnimations', [
@@ -55,7 +56,7 @@ export const transformer =
 
 
 
-
+// @dynamic
 function slideTo(direction) {
   const optional = { optional: true };
   return [
