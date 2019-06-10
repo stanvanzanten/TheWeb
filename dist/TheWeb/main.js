@@ -565,6 +565,7 @@ var fader = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])(
     ]),
 ]);
 // Positioned
+// @dynamic
 var slider = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('routeAnimations', [
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('* => isLeft', slideTo('left')),
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('* => isRight', slideTo('right')),
@@ -580,6 +581,7 @@ var transformer = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigg
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('isRight => *', translateTo({ x: -100, y: -100, rotate: 360 })),
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('isLeft => *', translateTo({ x: 100, y: -100, rotate: -360 }))
 ]);
+// @dynamic
 function slideTo(direction) {
     var _a, _b, _c, _d;
     var optional = { optional: true };

@@ -39,10 +39,7 @@ export const slider =
     transition('* => isLeft', slideTo('left') ),
     transition('* => isRight', slideTo('right') ),
     transition('isRight => *', slideTo('left') ),
-    transition('isLeft => *', slideTo('right') ),
-    transition('isRight => isLeft', slideTo('left')),
-    transition('isLeft => isRight', slideTo('right')),
-    transition('* => *', slideTo('left'))
+    transition('isLeft => *', slideTo('right') )
   ]);
 
 
