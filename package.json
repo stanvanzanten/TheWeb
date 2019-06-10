@@ -4,14 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build",
+    "build": "ng build --prod",
+    "postinstall": "ng build --prod ",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/build-angular": "^0.13.9",
     "@angular/animations": "^7.0.4",
     "@angular/cdk": "^8.0.1",
     "@angular/cli": "~7.0.4",
@@ -27,15 +28,17 @@
     "@angular/router": "~7.0.0",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.3.1",
+    "compression": "^1.7.4",
     "core-js": "^2.5.4",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
+    "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "typescript": "~3.1.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.13.9",
     "@angular/language-service": "~7.0.0",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
