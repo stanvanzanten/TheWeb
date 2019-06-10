@@ -55,7 +55,7 @@ export const transformer =
 
 // @dynamic
 function slideTo(direction) {
-  const optional = { optional: true };
+  // const optional = { optional: true };
   return [
     query(':enter, :leave', [
       style({
@@ -64,14 +64,14 @@ function slideTo(direction) {
         [direction]: 0,
         width: '100%'
       })
-    ], optional),
+    ]),
     query(':enter', [
       style({ [direction]: '-100%'})
     ]),
     group([
       query(':leave', [
         animate('600ms ease', style({ [direction]: '100%'}))
-      ], optional),
+      ]),
       query(':enter', [
         animate('600ms ease', style({ [direction]: '0%'}))
       ])
