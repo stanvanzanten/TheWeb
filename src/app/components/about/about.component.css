@@ -1,5 +1,7 @@
 .masthead {
-  background-color: #333333 !important;
+  height: 100vh;
+  min-height: 500px;
+  background-color: black !important;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -83,3 +85,26 @@
   border-bottom: #2EFFFF 2px solid;
   width: 100%;
 }
+
+@media (max-width: 767.98px) { 
+  .profielfoto{
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .main-row{
+    padding-top: 20px;
+  }
+
+  .container{
+    padding-top: 20px;
+  }
+
+  .beschrijving{
+    font-size: 14px;
+  }
+
+  .WhoAmI{
+    font-size: 36px;
+  }
+ }
